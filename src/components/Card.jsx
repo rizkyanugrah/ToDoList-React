@@ -91,7 +91,7 @@ const Card = () => {
     );
   } else {
     return (
-      <div className="w-1/2 h-3/4 min-h-max bg-[#7743DB] shadow-2xl rounded-lg p-2 items-center flex flex-col space-y-10 justify-between">
+      <div className="sm:w-1/2 h-full md:h-[87%] min-h-max bg-[#7743DB] shadow-2xl rounded-lg p-2 items-center flex flex-col space-y-10 justify-between">
         <div className="flex flex-col space-y-10 w-full h-3/4 min-h-max items-center">
           <h1 className="text-3xl font-semibold h1-todo">Update Todo List</h1>
           <div className="w-3/4">
