@@ -30,12 +30,12 @@ const SingleTodoCard = (props) => {
         <BsCheckSquare
           onClick={() => setToggleComplete(!toggleComplete)}
           className={`cursor-pointer text-green-700 ${
-            toggleComplete ? "text-gray-400" : ""
+            toggleComplete ? "text-[#a0aec0]" : ""
           }`}
           size={20}
         />
         {toggleComplete ? (
-          <FaEdit size={20} className="cursor-pointer text-gray-400" />
+          <FaEdit size={20} className="cursor-pointer text-[#a0aec0]" />
         ) : (
           <FaEdit
             onClick={() =>
